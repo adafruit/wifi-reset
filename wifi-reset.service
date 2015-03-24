@@ -4,7 +4,7 @@ Description=Wireless Network Reset
 [Service]
 Type=oneshot
 RemainAfterExit=true
-ExecStart=/bin/bash /opt/wifi-reset/wifi-reset.sh
+ExecStart=/opt/wifi-reset/wifi-reset.rb
 
 [Install]
 WantedBy=multi-user.target

@@ -1,5 +1,6 @@
 [Unit]
 Description=Wireless Network Reset
+After=wpa_supplicant.service networking.service
 
 [Service]
 Type=oneshot
